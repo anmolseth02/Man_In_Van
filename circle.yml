@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/Fool-Android/app/build/outputs/apk/
+        - /home/ubuntu/Man_In_Van/app/build/outputs/apk/
 
 machine:
     environment:
