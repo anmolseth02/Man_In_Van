@@ -23,3 +23,9 @@ dependencies:
 
     override:
         - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
+test:
+  override:
+    # start the emulator
+    - emulator -avd circleci-android24 -no-window:
+        background: true
+        parallel: true
