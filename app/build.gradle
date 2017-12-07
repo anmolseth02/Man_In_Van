@@ -1,4 +1,5 @@
-apply plugin: 'com.android.application'
+apply plugin:'com.android.application'
+mainClassName : 'com.example.luy.maninvan'
 
 android {
     compileSdkVersion 26
