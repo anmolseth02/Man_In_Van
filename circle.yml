@@ -10,6 +10,11 @@ machine:
     environment:
         ANDROID_HOME: /usr/local/android-sdk-linux
 
+checkout:
+  post:
+    - cp -r licenses/. $ANDROID_HOME/licenses
+
+
 dependencies:
     pre:
       - echo yes | android update sdk --no-ui --all --filter tools,platform-tools
